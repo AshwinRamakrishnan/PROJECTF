@@ -3,84 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Navbar</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="test.css">
-
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
     <style>
-        body {
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            position: relative;
-            width: 100%;
-            background-image: url('Meeravathi.jpeg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            overflow: hidden;
-        }
-
-        .navbar {
-            background: transparent;
-            border: none;
-        }
-
-        .navbar-brand img {
-            width: 50px;
-        }
-
-        .nav-links {
-            flex: 0;
-            display: flex;
-            justify-content: center;
-            background: transparent;
-            border: 2px solid rgba(255, 255, 255, .2);
-            backdrop-filter: blur(20px);
-            box-shadow: 0 0 10px rgba(0, 0, 0, .2);
-            border-radius: 8px;
-            -webkit-backdrop-filter: blur(10px); /* For Safari */
-            padding: 10px 20px; /* Padding inside the box */
-        }
-
-        .nav-item {
-            margin: 0 15px;
-        }
-
-        .btn-blur {
-            background: rgba(255, 255, 255, 0.7);
-            border: none;
-            color: #007bff;
-            border-radius: 5px;
-            padding: 10px 20px;
-            transition: background 0.3s ease;
-        }
-
-        .btn-blur:hover {
-            background: rgba(255, 255, 255, 1);
-            color: #0056b3;
-        }
-
-        .nav-link {
-            color: white !important;
-        }
-        
-        .nav-link:hover {
-            color: #f8f9fa !important;
-        }
-
-        @media (max-width: 991.98px) {
-            .nav-links {
-                justify-content: flex-start;
-                flex-direction: column;
-            }
-            .btn-blur {
-                margin-top: 10px;
-            }
-        }
+        /* You can add custom styles here if needed */
     </style>
 </head>
 <body>
@@ -89,12 +16,9 @@
             <a class="navbar-brand" href="#">
                 <img src="logo.png" alt="your logo">
             </a>
-
-            <!-- Navbar Toggler Button for Mobile -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbarNav">
                 <div class="nav-links mx-auto">
                     <ul class="navbar-nav">
@@ -115,28 +39,162 @@
                         </li>
                     </ul>
                 </div>
-                <div class="ml-auto">
-                    <button class="btn btn-blur" onclick="window.location.href='login.html'">Login</button>
+                <div>
+                    <button class="btn btn-blur" onclick="window.location.href='index.html'">Login</button>
                 </div>
             </div>
         </nav>
+        <div class="slider">
+            <div class="list">
+                <div class="item">
+                    <img src="Meeravathi.jpeg" alt="Server Image">
+                    <div class="content">
+                        <div class="title">எதிர்கால தொழில்நுட்பம்</div>
+                        <div class="type">FUTECX</div>
+                        <div class="description">
+                            2030-இற்கான எஐ, எம்எல், என்.எல்.பி மற்றும் பிற புதிய தலைமுறை தொழில்நுட்பங்களை ஆராய்ந்து, நடைமுறைப் படுத்துவதற்கான முன்னணி தளம் ஆகும். Project-C இந்த பயணத்தின் ஆரம்ப கட்டமாகும், தொழில்நுட்ப முன்னேற்றங்களை மேம்படுத்துவதில் நாங்கள் உறுதியுடன் செயற்படுகிறோம்.
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="Meeravathi.jpeg" alt="Server Image">
+                    <div class="content">
+                        <div class="title">FUTURE TECHNOLOGY (FUTECX)</div>
+                        <div class="type">PROJECT-C</div>
+                        <div class="description">
+                            A leading platform dedicated to exploring and implementing advanced technologies for 2030 and beyond. Project-C serves as the initial phase of this journey, focusing on enhancing next-gen AI, ML, and emerging tech. Together with our team, we are committed to advancing innovation and shaping the future.
+
+
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+                <div class="item">
+                    <img src="king.jpeg" alt="Server Image">
+                    <div class="content">
+                        <div class="title">Next </div>
+                        <div class="type">Project-K (Nov 1)</div>
+                        <div class="description">
+                            A leading platform dedicated to exploring and implementing advanced technologies for 2030 and beyond. Project-C serves as the initial phase of this journey, focusing on enhancing next-gen AI, ML, and emerging tech. Together with our team, we are committed to advancing innovation and shaping the future.
+
+
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+
+
+
+
+
+                <div class="item">
+                    <img src="ai.jpeg" alt="hand pink Image">
+                    <div class="content">
+                        <div class="title">AI</div>
+                        <div class="type">ARTIFICIAL INTELLIGENCE</div>
+                        
+                            <div class="description">
+                                At FUTECX, we actively and thoroughly explore AI’s advanced capabilities to drive meaningful innovation and create impactful, transformative solutions. Project-C is our crucial and foundational first step in advancing and effectively implementing next-generation AI technologies.
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="llms.jpeg" alt="hand gold Image">
+                    <div class="content">
+                        <div class="title">LLMs</div>
+                        <div class="type">LARGE LANGUAGE MODELs</div>
+                        <div class="description">
+                            LLMs are at the cutting edge of AI, transforming how machines understand and generate language. At FUTECX, we delve into the power of LLMs to drive innovation in natural language processing. Project-C is our foundational effort to explore and implement LLMs for next-generation AI solutions.
+                    </div>
+                        >
+                    </div>
+                
+                </div>
+                <div class="item">
+                    <img src="ml.jpeg" alt="Earth Image">
+                    <div class="content">
+                        <div class="title">ML</div>
+                        <div class="type">MACHINE LEARNING MODEL</div>
+                        <div class="description">
+                            ML is a cornerstone of modern AI, enabling systems to learn and improve from data without explicit programming. At FUTECX, we focus on harnessing ML to create innovative and adaptive solutions. Project-C marks our initial step in advancing ML technologies for the future.
+
+
+                        </div>
+                       
+                    </div>
+                
+                </div>
+                <div class="item">
+                    <img src="nlp.jpeg" alt="Nature Image">
+                    <div class="content">
+                        <div class="title">NLP</div>
+                        <div class="type">NATURAL LANGUAGE PROCESSING</div>
+                        <div class="description">
+                            NLP bridges the gap between human language and machines, enabling computers to understand, interpret, and generate text. At FUTECX, we are dedicated to advancing NLP to create more intuitive and responsive AI systems. Project-C initiates our journey into developing cutting-edge NLP technologies for the future.
+                        </div>
+                        
+                    </div>
+                
+                </div>
+            </div>
+            <div class="thumbnail">
+                <div class="item">
+                    <img src="Meeravathi.jpeg" alt="Server Thumbnail">
+                </div>
+                <div class="item">
+                    <img src="Meeravathi.jpeg" alt="Server Thumbnail">
+                </div>
+                <div class="item">
+                    <img src="king.jpeg" alt="Server Thumbnail">
+                </div>
+                <div class="item">
+                    <img src="ai.jpeg" alt="hand pink Thumbnail">
+                </div>
+                <div class="item">
+                    <img src="llms.jpeg" alt="hand gold Thumbnail">
+                </div>
+                <div class="item">
+                    <img src="ml.jpeg" alt="Earth Thumbnail">
+                </div>
+                <div class="item">
+                    <img src="nlp.jpeg" alt="Nature Thumbnail">
+                </div>
+                
+                
+            </div>
+            <div class="nextPrevArrows">
+                <button class="prev"> < </button>
+                <button class="next"> > </button>
+            </div>
+        </div>
     </header>
-    
+    <main>
+        <section class="welcome">
+            <div class="container">
+                <h2>Welcome to Young Innovator Startup</h2>
+                <p>At Young Innovators, we believe in nurturing creativity and empowering young minds. Join us to learn web development and turn your ideas into reality!</p>
+                <p>Young Innovators Startup: Pioneering the Future with Innovative Solutions
+                Welcome to Young Innovators Startup, where we blend creativity, technology, and passion to create groundbreaking solutions for today’s digital challenges. Founded by a visionary team, we specialize in AI solutions, web development, and app development, striving to push the boundaries of what’s possible in the tech world.</p>
+            </div>
+        </section>
+    </main>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script>
-        // Adjust header height to fit the viewport
         function adjustHeaderHeight() {
             const header = document.querySelector('header');
-            header.style.height = `${window.innerHeight}px`;
+            header.style.height = `${window.innerHeight}px`;;
         }
-
-        // Initial adjustment
         adjustHeaderHeight();
-
-        // Adjust on window resize
         window.addEventListener('resize', adjustHeaderHeight);
     </script>
+    <script src="app.js"></script>
 </body>
 </html>
